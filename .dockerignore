@@ -1,0 +1,34 @@
+# Node.js dependencies
+node_modules/
+
+# Python dependencies
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+*.log
+
+# Operating system specific files
+.DS_Store
+Thumbs.db
+
+# Build output
+/dist/
+build/
+
+# Docker files and config
+.dockerignore
+Dockerfile
+
+# Temporary files
+*.tmp
+*.swp
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Optional: If you are using npm or yarn lock files, you may not want to copy them into the container
+# package-lock.json
+# yarn.lock

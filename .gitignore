@@ -1,0 +1,7 @@
+node_modules
+*.log
+jobs/**/*.json
+combined_jobs/**/*.json
+processed_jobs/**/*.json
+volume_docker/**/*.json
+.env

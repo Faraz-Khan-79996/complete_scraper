@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  app:
+    build:
+      context: . # Context points to the current directory
+      dockerfile: Dockerfile # Name of the Dockerfile
+    volumes:
+      # - .:/app # Bind mount the current directory to /app inside the container
+      # - /app/node_modules # Prevent node_modules from being overwritten
+      - ./volume_docker:/app/processed_jobs # Mount processed_jobs folder to the host
+    environment:
+      NODE_ENV: development # Pass environment variables
+    ports:
+      - "3000:3000" # Map port 3000 on the host to port 3000 in the container
+    command: ["npm", "run", "start"] # Override CMD if necessary
