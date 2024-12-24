@@ -76,9 +76,5 @@ You can modify the `config` file to adjust the behavior and results of the proje
 ### Notes:
 - `array_size` should be equal to the number of elements in the `search_terms` array.
 
-## License
 
-Include license details here, if applicable. For example:
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
